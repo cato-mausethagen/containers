@@ -11,3 +11,8 @@ docker compose -f docker-compose-apicurio.yaml up
 ```
 docker compose -f docker-compose-postgres-kafka.yaml up  
 ```
+ 
+# Swagger Editor
+```
+docker compose -f docker-compose-swagger-editor.yaml up
+```
