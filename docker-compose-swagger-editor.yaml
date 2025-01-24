@@ -3,6 +3,6 @@ version: '3.9'
 # docker compose -f docker-compose-swagger-editor.yaml up
 services:
   swagger-editor:
-    image: swaggerapi/swagger-editor:latest
+    image: swaggerapi/swagger-editor:next-v5-unprivileged
     ports:
       - '8080:8080'
